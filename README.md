@@ -5,11 +5,41 @@ Engineer** — curated roadmaps for Machine Learning, Deep Learning, AI
 Engineering, and the Maths for ML, with courses, playlists, and reference
 resources split into their own files.
 
-## The core sequence
+## The roadmap at a glance
 
+> **Where to start:** you can already code but are new to ML → begin at
+> **Phase 1** and move top to bottom. The dotted branches are specialized tracks
+> you can dip into along the way.
+
+```mermaid
+flowchart TD
+    START(["👋 You can code, new to ML — start here"]) --> P1
+
+    subgraph CORE ["The Core Sequence · do these in order"]
+        direction TB
+        P1["📐 Phase 1 · Math + Python Foundations<br/>Linear algebra · calculus · stats · NumPy / Pandas<br/><i>~5–7 weeks</i>"]
+        P2["🤖 Phase 2 · Classical Machine Learning<br/>Regression · trees · XGBoost · bias-variance · evaluation<br/><i>~8–10 weeks</i>"]
+        P3["🧠 Phase 3 · Deep Learning<br/>Backprop · PyTorch · CNNs · Transformers<br/><i>~12–16 weeks</i>"]
+        P4["⚡ Phase 4 · Applied AI / LLMs<br/>Tokenization · RAG · fine-tuning · evals<br/><i>~6–8 weeks</i>"]
+        P1 --> P2 --> P3 --> P4
+    end
+
+    P4 --> CAP{{"🚀 Capstone · RAG app on FastAPI, deployed on AWS"}}
+    CAP --> HIRED(["🎯 AI Engineer"])
+
+    P1 -. deep dive .-> MFML[/"📊 Maths for ML track"/]
+    P4 -. go deeper .-> AGENTS[/"🕹️ Agent Engineering track"/]
+    START -. in a hurry? .-> FAST[/"🏎️ 4-month AI Engineer fast track"/]
+
+    classDef core fill:#0b1f3a,stroke:#22d3ee,stroke-width:2px,color:#e5f6ff;
+    classDef track fill:#1e1b3a,stroke:#a78bfa,stroke-width:1px,color:#ede9fe,stroke-dasharray:4 3;
+    classDef goal fill:#0f2e1d,stroke:#34d399,stroke-width:2px,color:#d1fae5;
+    class P1,P2,P3,P4 core;
+    class MFML,AGENTS,FAST track;
+    class START,HIRED,CAP goal;
 ```
-Math/Python Foundations → Classical ML → Deep Learning → Applied AI Engineering (LLM layer)
-```
+
+**Diagram → files:** Phases 1–4 are the [Personalised roadmap](roadmaps/personalized-ml-dl-ai/README.md) · [Maths for ML](roadmaps/maths-for-ml.md) · [Agent Engineering](roadmaps/agent-engineering-roadmap.md) · [4-month fast track](roadmaps/ai-engineer-roadmap.md). At every stage, pull specifics from [courses](courses.md), [playlists](playlists.md), and [resources](resources.md).
 
 ## Contents
 
