@@ -2,6 +2,12 @@
 
 My working folder for going from frontend engineer (React/Next.js/TS) to an AI engineer with real depth, not wrapper-level knowledge. It follows a fixed six-phase roadmap, in order, with no added resources.
 
+## Roadmap at a glance
+
+![Roadmap: Phase 0 to 5](../assets/roadmap-visual.png)
+
+Editable source: [roadmap-visual.svg](../assets/roadmap-visual.svg)
+
 ## Phases
 
 | # | Phase | Folder |
