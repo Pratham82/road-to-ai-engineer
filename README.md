@@ -55,6 +55,9 @@ flowchart TD
 - [Full AI Engineering Curriculum (18–24 Months)](roadmaps/full-curriculum-18-24mo.md)
 - [Community Study Approaches](roadmaps/community-study-approaches.md) — how experienced people actually studied ML.
 
+### ✅ Study tracker
+- [Study Tracker](study-tracker/README.md) — my Phase 0–5 working folder: per-phase notes, exercises, projects, checkpoints, and a daily log.
+
 ### 📚 Reference
 - [Courses](courses.md) — structured courses, specializations, MIT/Stanford lecture series.
 - [Playlists](playlists.md) — topical / creator YouTube playlists.
