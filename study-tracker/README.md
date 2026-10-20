@@ -19,6 +19,8 @@ Editable source: [roadmap-visual.svg](../assets/roadmap-visual.svg)
 | 4 | LLMs & Applied AI Engineering | [phase-4-llm-engineering](phase-4-llm-engineering/) |
 | 5 | Agent Engineering & Production | [phase-5-agents](phase-5-agents/) |
 
+**Daily routine:** see [HOW-TO-USE.md](HOW-TO-USE.md) (run `/study-session`, then `/log-session`, then `/checkpoint-quiz` at the end of a phase).
+
 Part of [road-to-ai-engineer](../README.md), which holds the wider reference material. Progress lives in [PROGRESS.md](PROGRESS.md). All resources are in [docs/curated-resources.md](docs/curated-resources.md).
 
 ## Layout of each phase folder
