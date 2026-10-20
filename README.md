@@ -43,13 +43,14 @@ flowchart TD
     class START,HIRED,CAP goal;
 ```
 
-**Diagram → files:** Phases 0–4 map to the [Personalised roadmap](roadmaps/personalized-ml-dl-ai/README.md) (its "Phase 1: Math + Python" is split here into Phase 0 + Phase 1; its Phases 2–4 are unchanged) · Phase 5 is the [Agent Engineering](roadmaps/agent-engineering-roadmap.md) track · [Maths for ML](roadmaps/maths-for-ml.md) · [4-month fast track](roadmaps/ai-engineer-roadmap.md). Phase-by-phase tracking lives in the [study tracker](study-tracker/README.md). The fast-track and agent roadmaps keep their own internal "Phase N" numbering; the 0–5 numbers above are the ones to use when tracking progress. At every stage, pull specifics from [courses](courses.md), [playlists](playlists.md), and [resources](resources.md).
+**Diagram → files:** Phases 0–4 map to the [Personalised roadmap](roadmaps/personalized-ml-dl-ai/README.md) (its former "Phase 1: Math + Python" is now split into Phase 0 + Phase 1; Phases 2–4 are unchanged) · Phase 5 is the [Agent Engineering](roadmaps/agent-engineering-roadmap.md) track · [Maths for ML](roadmaps/maths-for-ml.md) · [4-month fast track](roadmaps/ai-engineer-roadmap.md). Phase-by-phase tracking lives in the [study tracker](study-tracker/README.md). The fast-track and agent roadmaps keep their own internal "Phase N" numbering; the 0–5 numbers above are the ones to use when tracking progress. At every stage, pull specifics from [courses](courses.md), [playlists](playlists.md), and [resources](resources.md).
 
 ## Contents
 
 ### 🗺️ Roadmaps
 - [Personalised AI + ML + DL Roadmap](roadmaps/personalized-ml-dl-ai/README.md) — the primary phase-by-phase path (Math → Classical ML → Deep Learning → Applied AI). Kept intact.
-  - [Phase 0 + 1: Python for AI and Math Foundations](roadmaps/personalized-ml-dl-ai/phase-1-math-python.md) — one file in this roadmap, tracked as two phases (0 and 1) in the study tracker
+  - [Phase 0: Python for AI](roadmaps/personalized-ml-dl-ai/phase-0-python-for-ai.md)
+  - [Phase 1: Math Foundations](roadmaps/personalized-ml-dl-ai/phase-1-math-foundations.md)
   - [Phase 2: Classical Machine Learning](roadmaps/personalized-ml-dl-ai/phase-2-classical-ml.md)
   - [Phase 3: Deep Learning](roadmaps/personalized-ml-dl-ai/phase-3-deep-learning.md)
   - [Phase 4: Applied AI Engineering / LLM Layer](roadmaps/personalized-ml-dl-ai/phase-4-applied-ai-eng.md)
