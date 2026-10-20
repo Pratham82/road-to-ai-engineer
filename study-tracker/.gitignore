@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+.env.*
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Data & models (keep the repo small; document how to download instead)
+data/
+*.csv
+*.parquet
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+chroma/
+.chroma/
+
+# OS / editor
+.DS_Store
+.idea/
+.vscode/

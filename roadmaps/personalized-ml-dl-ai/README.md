@@ -1,6 +1,7 @@
 # Personalised AI + ML + DL Roadmap
 
-> Kept as-is from the original personalized roadmap. This is the primary,
+> Based on the original personalized roadmap, renumbered to Phases 0–5 (Python split
+> out as Phase 0; Agent Engineering added as optional Phase 5). This is the primary,
 > phase-by-phase learning path. Each phase links to its own detailed breakdown.
 
 Here's the full roadmap with a **Recommended Books** section added to each phase, so you can pair reading with the courses.
@@ -8,21 +9,44 @@ Here's the full roadmap with a **Recommended Books** section added to each phase
 ## The core sequence
 
 ```
-Math/Python Foundations → Classical ML → Deep Learning → Applied AI Engineering (LLM layer)
+Python for AI → Math Foundations → Classical ML → Deep Learning → Applied AI Engineering (LLM layer)
+                                                                          ↳ (optional) Agent Engineering
 ```
+
+Phases are numbered **0–5**. The original "Math + Python Foundations" phase is now split into Phase 0 (Python for AI) and Phase 1 (Math Foundations).
 
 ---
 
-## [Phase 1: Math + Python Foundations](phase-1-math-python.md)
+## [Phase 0: Python for AI](phase-0-python-for-ai.md)
+
+**Duration: 1-2 weeks** (refresh only)
+
+**What to learn:** Type hints, generators, decorators, dataclasses, virtual envs and packaging (Poetry/Rye), asyncio and JSON/tool-calling patterns, NumPy/Pandas/Matplotlib, Jupyter.
+
+**Courses:**
+
+- Python for Everybody (skim advanced sections only)
+
+**Books (reference):**
+
+- _Python Tricks_, _Effective Python_
+
+**Checkpoint**: Comfortable in Jupyter, can explain what vectorization replaces, virtual env + packaging second-nature.
+
+---
+
+## [Phase 1: Math Foundations](phase-1-math-foundations.md)
 
 **Duration: 5-7 weeks**
 
-**What to learn:** Linear algebra, calculus (derivatives, chain rule), probability/stats, NumPy + Pandas fluency.
+**What to learn:** Statistics and probability first, then linear algebra, calculus (derivatives, chain rule), and ML-specific math (loss functions, gradient descent, bias-variance).
 
 **Courses:**
 
 - 3Blue1Brown — "Essence of Linear Algebra" + "Essence of Calculus" (YouTube, free)
+- Khan Academy — Statistics & Probability, Linear Algebra, Calculus (free)
 - Mathematics for Machine Learning Specialization (Imperial College London, Coursera)
+- An Introduction to Statistical Learning (ISLR) — free book + YouTube series
 - Kaggle micro-courses — "Pandas," "Intro to Machine Learning" (free)
 
 **Books:**
@@ -99,15 +123,29 @@ Math/Python Foundations → Classical ML → Deep Learning → Applied AI Engine
 
 ---
 
+## [Phase 5: Agent Engineering & Production](../agent-engineering-roadmap.md) (optional specialization)
+
+**Duration: ~10-15 weeks**
+
+**What to learn:** Agent frameworks and workflows (LangGraph, CrewAI, AutoGen), eval harnesses and agent infrastructure, production reliability (observability, fallbacks, CI eval gates, prompt-injection defense), deployment hardening (Docker, queues, Redis, caching).
+
+**Builds, in order:** tool-using assistant → RAG chatbot (extend the Phase 4 capstone) → Research Analyst Agent → evaluation harness (~1,500 LOC) → production-ready agent.
+
+Pursue this if the target role leans "Agent/AI Engineer" rather than "ML Engineer". The detailed week-by-week plan is the [Agent Engineering Roadmap](../agent-engineering-roadmap.md), which keeps its own internal Phase 0-5 numbering.
+
+---
+
 ## Full timeline
 
 |Phase|Duration|Primary Course|Primary Book|
 |---|---|---|---|
-|1: Math/Python|5-7 wks|Math for ML Specialization|Mathematics for Machine Learning (Deisenroth et al.)|
+|0: Python for AI|1-2 wks|Python for Everybody (skim)|Effective Python (reference)|
+|1: Math Foundations|5-7 wks|Math for ML Specialization|Mathematics for Machine Learning (Deisenroth et al.)|
 |2: Classical ML|8-10 wks|ML Specialization (Ng)|Hands-On Machine Learning (Géron)|
 |3: Deep Learning|12-16 wks|fast.ai + Karpathy's Zero to Hero|Deep Learning (Goodfellow et al.), Part 1 + reference|
 |4: Applied AI Eng|6-8 wks|DeepLearning.AI + HF NLP Course|NLP with Transformers (Tunstall et al.)|
+|5: Agent Eng (optional)|10-15 wks|See Agent Engineering Roadmap|Designing Machine Learning Systems (Huyen)|
 
-**Total: ~31-41 weeks (7-10 months)**
+**Total (Phases 0-4): ~32-43 weeks (7.5-10 months)**; with optional Phase 5: ~42-58 weeks
 
 One caution worth flagging plainly: most formal courses like fast.ai and Andrew Ng's sequence are already self-contained — the risk with adding books is spreading attention too thin rather than going deeper. I'd treat the books as **reference material to dip into when a course concept feels thin**, not as a second syllabus to read cover-to-cover in parallel. Géron's book especially can mostly replace re-reading course transcripts.
