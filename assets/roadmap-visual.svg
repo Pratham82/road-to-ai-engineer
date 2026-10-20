@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1220 860" width="1220" height="860" font-family="Helvetica, Arial, sans-serif">
+<defs><marker id="ah" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#1e1e1e"/></marker></defs>
+<rect width="1220" height="860" fill="#ffffff"/>
+<text x="610" y="45" font-size="28" font-weight="bold" text-anchor="middle" fill="#1e1e1e">AI Engineering Roadmap: Phase 0 to 5</text>
+<rect x="40" y="100" width="340" height="260" rx="16" fill="#a5d8ff" stroke="#4a9eed" stroke-width="2.5"/>
+<text x="210" y="145" font-size="16" font-weight="bold" text-anchor="middle" fill="#1e1e1e">PHASE 0 | 1-2 wks</text>
+<text x="210" y="185" font-size="21" font-weight="bold" text-anchor="middle" fill="#1e1e1e">Python for AI</text>
+<text x="70" y="230" font-size="17" fill="#1e1e1e">- Generators, decorators, async</text>
+<text x="70" y="260" font-size="17" fill="#1e1e1e">- Dataclasses, venv, Poetry/Rye</text>
+<text x="70" y="290" font-size="17" fill="#1e1e1e">- NumPy, Pandas, Matplotlib</text>
+<text x="210" y="325" font-size="16" font-style="italic" text-anchor="middle" fill="#333">Check: fluent in Jupyter</text>
+<rect x="440" y="100" width="340" height="260" rx="16" fill="#c3fae8" stroke="#06b6d4" stroke-width="2.5"/>
+<text x="610" y="145" font-size="16" font-weight="bold" text-anchor="middle" fill="#1e1e1e">PHASE 1 | 5-7 wks</text>
+<text x="610" y="185" font-size="21" font-weight="bold" text-anchor="middle" fill="#1e1e1e">Math Foundations</text>
+<text x="470" y="230" font-size="17" fill="#1e1e1e">- Stats and probability</text>
+<text x="470" y="260" font-size="17" fill="#1e1e1e">- Linear algebra, calculus</text>
+<text x="470" y="290" font-size="17" fill="#1e1e1e">- Loss, gradient descent</text>
+<text x="610" y="325" font-size="16" font-style="italic" text-anchor="middle" fill="#333">Check: EDA project in Pandas</text>
+<rect x="840" y="100" width="340" height="260" rx="16" fill="#b2f2bb" stroke="#22c55e" stroke-width="2.5"/>
+<text x="1010" y="145" font-size="16" font-weight="bold" text-anchor="middle" fill="#1e1e1e">PHASE 2 | 8-10 wks</text>
+<text x="1010" y="185" font-size="21" font-weight="bold" text-anchor="middle" fill="#1e1e1e">Classical ML</text>
+<text x="870" y="230" font-size="17" fill="#1e1e1e">- Regression, classification</text>
+<text x="870" y="260" font-size="17" fill="#1e1e1e">- Trees, XGBoost, K-means, PCA</text>
+<text x="870" y="290" font-size="17" fill="#1e1e1e">- Metrics and diagnostics</text>
+<text x="1010" y="325" font-size="16" font-style="italic" text-anchor="middle" fill="#333">Kaggle: Titanic, Houses, Fraud</text>
+<rect x="840" y="480" width="340" height="260" rx="16" fill="#d0bfff" stroke="#8b5cf6" stroke-width="2.5"/>
+<text x="1010" y="525" font-size="16" font-weight="bold" text-anchor="middle" fill="#1e1e1e">PHASE 3 | 12-16 wks</text>
+<text x="1010" y="565" font-size="21" font-weight="bold" text-anchor="middle" fill="#1e1e1e">Deep Learning + Transformers</text>
+<text x="870" y="610" font-size="17" fill="#1e1e1e">- Backprop by hand, PyTorch</text>
+<text x="870" y="640" font-size="17" fill="#1e1e1e">- Self-attention, GPT</text>
+<text x="1010" y="705" font-size="16" font-style="italic" text-anchor="middle" fill="#333">Build: NumPy MNIST, PyTorch, Karpathy GPT</text>
+<rect x="440" y="480" width="340" height="260" rx="16" fill="#ffd8a8" stroke="#f59e0b" stroke-width="2.5"/>
+<text x="610" y="525" font-size="16" font-weight="bold" text-anchor="middle" fill="#1e1e1e">PHASE 4 | 6-8 wks</text>
+<text x="610" y="565" font-size="21" font-weight="bold" text-anchor="middle" fill="#1e1e1e">LLMs + Applied AI Eng</text>
+<text x="470" y="610" font-size="17" fill="#1e1e1e">- Tokens, embeddings, sampling</text>
+<text x="470" y="640" font-size="17" fill="#1e1e1e">- Fine-tuning (LoRA), RAG, evals</text>
+<text x="610" y="705" font-size="16" font-style="italic" text-anchor="middle" fill="#333">Capstone: FastAPI RAG app on AWS</text>
+<rect x="40" y="480" width="340" height="260" rx="16" fill="#ffc9c9" stroke="#ef4444" stroke-width="2.5"/>
+<text x="210" y="525" font-size="16" font-weight="bold" text-anchor="middle" fill="#1e1e1e">PHASE 5 | 10-15 wks</text>
+<text x="210" y="565" font-size="21" font-weight="bold" text-anchor="middle" fill="#1e1e1e">Agents + Production (optional)</text>
+<text x="70" y="610" font-size="17" fill="#1e1e1e">- LangGraph, tracing, eval harness</text>
+<text x="70" y="640" font-size="17" fill="#1e1e1e">- Reliability, cost, security</text>
+<text x="210" y="705" font-size="16" font-style="italic" text-anchor="middle" fill="#333">Build: 5 public GitHub projects</text>
+<line x1="382" y1="230" x2="438" y2="230" stroke="#1e1e1e" stroke-width="3" marker-end="url(#ah)"/>
+<line x1="782" y1="230" x2="838" y2="230" stroke="#1e1e1e" stroke-width="3" marker-end="url(#ah)"/>
+<line x1="1010" y1="362" x2="1010" y2="478" stroke="#1e1e1e" stroke-width="3" marker-end="url(#ah)"/>
+<line x1="838" y1="610" x2="782" y2="610" stroke="#1e1e1e" stroke-width="3" marker-end="url(#ah)"/>
+<line x1="438" y1="610" x2="382" y2="610" stroke="#1e1e1e" stroke-width="3" marker-end="url(#ah)"/>
+<rect x="40" y="62" width="170" height="30" rx="8" fill="#b2f2bb" stroke="#22c55e" stroke-width="2"/><text x="125" y="83" font-size="15" font-weight="bold" text-anchor="middle">WE START HERE</text>
+<text x="610" y="795" font-size="20" text-anchor="middle" fill="#1e1e1e">Every phase ends with a checkpoint quiz. No advancing until it passes.</text>
+<text x="610" y="830" font-size="20" text-anchor="middle" fill="#757575">Roadmap estimate: about 42-58 weeks in total</text>
+</svg>
