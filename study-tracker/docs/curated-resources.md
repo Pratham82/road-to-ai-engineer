@@ -109,6 +109,7 @@ One list, deduplicated from six overlapping source files. Grouped by phase; each
 - [I Tried 20+ LangChain Courses on Udemy — Top 5 for 2026](https://medium.com/javarevisited/i-tried-20-langchain-courses-on-udemy-here-are-my-top-5-recommendations-for-2026-fde288d7c831)
 - [Free Nvidia Courses](https://www.nvidia.com/en-us/training/find-training/?Free+Courses=Free)
 - Book repos: [ML Books G Drive](https://drive.google.com/drive/folders/1jIJMyBOeWiVxLCUUtLvEFEFCnWxbh6cs), [AI ML books (GitHub)](https://github.com/AniruddhaChattopadhyay/Books), [ML Notes GitHub](https://github.com/TruongDat05/machine-learning-notes-and-code)
+- [How to Learn ML in 2026 (feat. Vicki Boykis, ML Engineer)](https://www.youtube.com/watch?v=vSz-VWb_0tY) — YouTube; general "how to learn ML" video
 
 ### Reddit
 
